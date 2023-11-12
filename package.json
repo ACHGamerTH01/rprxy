@@ -1,0 +1,18 @@
+{
+  "name": "rprxy",
+  "version": "1.0.1",
+  "description": "Because Roblox does not allow HttpService requests to roblox.com an external proxy is needed for access to site APIs.\r This will proxy all requests to Roblox via `server.js` except when the path is `/proxy` and a static file exists.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.18.2",
+    "http-proxy": "^1.16.2"
+  },
+  "keywords": []
+}
